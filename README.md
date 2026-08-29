@@ -1,1 +1,1 @@
-# Student-management-castro
+# Student Management Application
