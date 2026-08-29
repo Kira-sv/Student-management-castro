@@ -6,6 +6,7 @@ Course/Section: BSIT-Net Ad/ CCIS7E
 This project is a simple Student Management Application
 created using HTML, CSS, JavaScript, Node.js, and Express.js.
 The application was developed and executed using GitHub Codespaces.
+
 Target GitHub repository for submission: https://github.com/Kira-sv/Student-management-castro
 ## Features
 - View students
