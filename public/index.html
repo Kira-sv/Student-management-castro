@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta
+ name="viewport"
+ content="width=device-width, initial-scale=1.0"
+ >
+ <title>
+ Student Management System
+ </title>
+ <link
+ rel="stylesheet"
+ href="style.css"
+ >
+</head>
+<body>
+ <div class="container">
+ <h1>
+ Student Management System
+ </h1>
+ <p class="subtitle">
+ Manage Student Records
+ </p>
+ <form id="studentForm">
+ <input
+ type="hidden"
+ id="studentId"
+ >
+ <label>
+ Student Name
+ </label>
+ <input
+ type="text"
+ id="name"
+ placeholder="Enter student name"
+ required
+ >
+ <label>
+ Course
+ </label>
+ <input
+ type="text"
+ id="course"
+ placeholder="Enter course"
+ required
+ >
+ <button
+ type="submit"
+ class="save-button"
+ >
+Cloud Networking • GitHub Codespaces • Shared Responsibility Page 7
+ Save Student
+ </button>
+ </form>
+ <h2>
+ Student List
+ </h2>
+ <table>
+ <thead>
+ <tr>
+ <th>Name</th>
+ <th>Course</th>
+ <th>Actions</th>
+ </tr>
+ </thead>
+ <tbody id="studentList">
+ </tbody>
+ </table>
+ </div>
+ <script src="script.js"></script>
+</body>
+</html>
